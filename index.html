@@ -65,10 +65,17 @@
     
     <div id="board1" style="width: 400px"></div>
       
-    <script type="text/javascript">
-      var board1 = ChessBoard('board1', 'start');
-    </script>
-      
+<script>
+var init = function() {
+
+//--- start example JS ---
+var board = ChessBoard('board');
+//--- end example JS ---
+
+}; // end init()
+$(document).ready(init);
+</script>
+    
   </body>
 
 </html>
